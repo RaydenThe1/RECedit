@@ -60,4 +60,4 @@ jobs:
 
       - name: 'Test: run tests'
         run: |
-          ./mvnw clean verify
+          ./mvn clean verify
