@@ -60,5 +60,4 @@ jobs:
 
       - name: 'Test: run tests'
         run: |
-          chmod +x mvn
-          ./mvn clean verify
+          ./mvnw clean verify
