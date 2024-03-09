@@ -34,10 +34,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build with maven
-        run:
-          mvn -B package --file pom.xml
-          chmod +x mvnw
-          ./mvnw clean verify
+        run: mvn -B package --file pom.xml
+
       - name: 'Setup: check tools'
         shell: bash
         run: |
@@ -62,5 +60,5 @@ jobs:
 
       #- name: 'Test: run tests'
       #  run: |
-      #    chmod +x mvn
-      #    mvn clean verify
+      #    chmod +x mvnw
+      #    ./mvnw clean verify
