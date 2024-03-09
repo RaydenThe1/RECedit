@@ -9,5 +9,15 @@
       "indentSize" : 2,
       "packageName" : "com.mycompany.myapp"
     }
+  }, {
+    "module" : "maven-java",
+    "date" : "2024-03-09T15:42:20.709393600Z",
+    "properties" : {
+      "projectName" : "RECedit",
+      "baseName" : "RECedit",
+      "endOfLine" : "",
+      "indentSize" : 2,
+      "packageName" : "com.lizardsquad.recedit"
+    }
   } ]
 }
