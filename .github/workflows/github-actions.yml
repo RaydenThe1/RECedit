@@ -28,7 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: 'Test: run tests'
-        uses: actions/checkout@v2
         run: |
-          chmod +x mvnw
+          chmod +x ./mvnw
           ./mvnw clean verify
