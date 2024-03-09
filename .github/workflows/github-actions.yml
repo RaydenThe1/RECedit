@@ -27,6 +27,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
+      - name: Packaging jar
+        id: packaging-jar
+        shell: bash
+        run: mv clean install
       - name: Build with maven
         run: mvn -B package --file pom.xml
       - name: 'Setup: check tools'
