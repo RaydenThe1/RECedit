@@ -39,5 +39,15 @@
       "indentSize" : 2,
       "packageName" : "com.lizardsquad.recedit"
     }
+  }, {
+    "module" : "jacoco",
+    "date" : "2024-03-09T15:45:38.233268200Z",
+    "properties" : {
+      "projectName" : "RECedit",
+      "baseName" : "RECedit",
+      "endOfLine" : "",
+      "indentSize" : 2,
+      "packageName" : "com.lizardsquad.recedit"
+    }
   } ]
 }
