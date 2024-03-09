@@ -29,5 +29,5 @@ jobs:
             ${{ runner.os }}-maven-
       - name: 'Test: run tests'
         run: |
-          chmod +x mvnw
-          ./mvnw clean verify
+          chmod +x .\mvnw
+          .\mvnw clean verify
