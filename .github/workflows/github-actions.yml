@@ -30,7 +30,7 @@ jobs:
       - name: Packaging jar
         id: packaging-jar
         shell: bash
-        run: mv clean install
+        run: mvn clean install
       - name: Build with maven
         run: mvn -B package --file pom.xml
       - name: 'Setup: check tools'
