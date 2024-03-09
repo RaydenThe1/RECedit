@@ -28,6 +28,11 @@ npm install
 
 ## Start up
 
+```
+mvn package
+mvn compile exec:java
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 

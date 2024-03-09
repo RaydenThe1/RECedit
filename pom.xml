@@ -62,6 +62,8 @@
     <failsafe-plugin.version>3.2.5</failsafe-plugin.version>
 
     <jacoco.version>0.8.11</jacoco.version>
+
+    <exec.mainClass>com.lizardsquad.recedit.main.Main</exec.mainClass>
   </properties>
 
   <build>
