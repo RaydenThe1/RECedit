@@ -19,5 +19,15 @@
       "indentSize" : 2,
       "packageName" : "com.lizardsquad.recedit"
     }
+  }, {
+    "module" : "github-actions-maven",
+    "date" : "2024-03-09T15:42:45.836906600Z",
+    "properties" : {
+      "projectName" : "RECedit",
+      "baseName" : "RECedit",
+      "endOfLine" : "",
+      "indentSize" : 2,
+      "packageName" : "com.lizardsquad.recedit"
+    }
   } ]
 }
