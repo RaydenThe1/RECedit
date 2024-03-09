@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Set up Maven
-        uses: stCarolas/setup-maven@v5
+        uses: actions/checkout@v2
         with:
           maven-version: 3.9.6
       - name: 'Setup: checkout project'
