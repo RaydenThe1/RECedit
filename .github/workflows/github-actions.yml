@@ -27,6 +27,8 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '21'
+      - name: Standard Checkout
+        uses: actions/checkout@v2
       - name: Packaging jar
         id: packaging-jar
         shell: bash
