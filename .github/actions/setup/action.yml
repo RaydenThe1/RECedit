@@ -3,10 +3,6 @@ description: 'Setup environment with Java 21, Node 20.11.1'
 runs:
   using: 'composite'
   steps:
-    - name: 'Setup: Maven 3.9.6'
-      uses: actions/setup-maven@v3
-      with:
-        maven-version: 3.9.6
     - name: 'Setup: Node.js'
       uses: actions/setup-node@v3
       with:
@@ -19,6 +15,9 @@ runs:
       with:
         distribution: 'temurin'
         java-version: '21'
+        cache: maven
+    - name: Build with maven
+      run: mvn -B package --file pom.xml
     - name: 'Setup: check tools'
       shell: bash
       run: |
