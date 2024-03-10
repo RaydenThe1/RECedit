@@ -39,25 +39,16 @@
       "indentSize" : 2,
       "packageName" : "com.lizardsquad.recedit"
     }
-  }, {
-    "module" : "jacoco",
-    "date" : "2024-03-09T15:45:38.233268200Z",
-    "properties" : {
-      "projectName" : "RECedit",
-      "baseName" : "RECedit",
-      "endOfLine" : "",
-      "indentSize" : 2,
-      "packageName" : "com.lizardsquad.recedit"
-    }
-  }, {
-    "module" : "jacoco",
-    "date" : "2024-03-10T14:54:01.962021200Z",
-    "properties" : {
-      "packageName" : "com.lizardsquad.recedit",
-      "projectName" : "RECedit",
-      "indentSize" : 2,
-      "baseName" : "RECedit",
-      "endOfLine" : ""
-    }
-  } ]
+  },
+    {
+      "module" : "jacoco-with-min-coverage-check",
+      "date" : "2024-03-10T14:58:57.473510Z",
+      "properties" : {
+        "projectName" : "RECedit",
+        "baseName" : "RECedit",
+        "endOfLine" : "",
+        "packageName" : "com.lizardsquard.recedit",
+        "indentSize" : 2
+      }
+    } ]
 }
