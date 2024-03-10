@@ -5,7 +5,6 @@ import com.lizardsquad.recedit.shared.generation.domain.ExcludeFromGeneratedCode
 import java.awt.*;
 import java.math.BigDecimal;
 
-@ExcludeFromGeneratedCodeCoverage
 public class Screenshot {
 
   private final BigDecimal width;
@@ -26,7 +25,7 @@ public class Screenshot {
   public BigDecimal getHeight() {
     return height;
   }
-
+  @ExcludeFromGeneratedCodeCoverage
   public static class ScreenshotBuilder {
 
     private BigDecimal width;
