@@ -69,5 +69,15 @@
       "baseName" : "RECedit",
       "endOfLine" : ""
     }
+  }, {
+    "module" : "sonar-qube-java-backend",
+    "date" : "2024-03-10T15:38:28.747476400Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
   } ]
 }

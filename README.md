@@ -37,6 +37,14 @@ mvn compile exec:java
 ./mvnw 
 ```
 
+```bash
+docker compose -f src/main/docker/sonar.yml up -d
+```
+
+```bash
+./mvnw clean verify sonar:sonar
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 
@@ -44,5 +52,6 @@ mvn compile exec:java
 
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
+- [sonar](documentation/sonar.md)
 
 <!-- jhipster-needle-documentation -->
