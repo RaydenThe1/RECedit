@@ -30,4 +30,4 @@ jobs:
       - name: 'Test: run tests'
         run: |
           chmod +x mvnw
-          ./mvnw clean verify sonar:sonar
+          ./mvnw clean verify
