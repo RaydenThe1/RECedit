@@ -1,5 +1,7 @@
 package com.lizardsquad.recedit.screenshot.domain;
 
+import com.lizardsquad.recedit.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
+
 import java.awt.*;
 import java.math.BigDecimal;
 
@@ -55,6 +57,7 @@ public class Screenshot {
     }
   }
 
+  @ExcludeFromGeneratedCodeCoverage
   public static Screenshot fromDimensionToDomain(Dimension dimension) {
     return new ScreenshotBuilder()
       .width(dimension.getWidth())

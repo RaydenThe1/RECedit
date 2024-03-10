@@ -1,6 +1,7 @@
 package com.lizardsquad.recedit.screenshot.secondary;
 
 import com.lizardsquad.recedit.screenshot.domain.Screenshot;
+import com.lizardsquad.recedit.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -57,6 +58,7 @@ public class ScreenshotEntity {
       .build();
   }
 
+  @ExcludeFromGeneratedCodeCoverage
   public static ScreenshotEntity save(ScreenshotEntity entity) throws AWTException, IOException {
     Robot robot = new Robot();
     BufferedImage image = robot.createScreenCapture(new Rectangle(entity.getWidth().intValue(), entity.getHeight().intValue()));
