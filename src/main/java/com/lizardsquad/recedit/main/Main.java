@@ -1,8 +1,11 @@
 package com.lizardsquad.recedit.main;
 
+import com.lizardsquad.recedit.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
+
 import java.util.ArrayList;
 import java.util.Random;
 
+@ExcludeFromGeneratedCodeCoverage
 public class Main {
 
     public static void main(String [] args) {
