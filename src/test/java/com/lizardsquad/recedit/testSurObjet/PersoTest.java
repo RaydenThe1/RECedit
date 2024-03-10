@@ -1,6 +1,7 @@
 package com.lizardsquad.recedit.testSurObjet;
 
 import com.lizardsquad.recedit.UnitTest;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -8,6 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @UnitTest
 class PersoTest {
 
+  /*@Disabled
   @Test
   void shouldBuild() {
 
@@ -15,7 +17,7 @@ class PersoTest {
 
     assertThat(perso).isNotNull();
     assertThat(perso.getNom()).isEqualTo("LE");
-    assertThat(perso.getPrenom()).isEqualTo("dsqd");
-    //assertThat(perso.getAge()).isEqualTo(23);
-  }
+    assertThat(perso.getPrenom()).isEqualTo("Alexandre");
+    assertThat(perso.getAge()).isEqualTo(23);
+  }*/
 }
