@@ -23,9 +23,9 @@ public class Perso {
   }
 
   // TODO: decommenter ce truc c pour sonar voir si ça marche bien
-  /*public Integer getAge() {
+  public Integer getAge() {
     return age;
-  }*/
+  }
 
   public static class PersoBuilder {
     private String nom;
