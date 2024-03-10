@@ -99,5 +99,15 @@
       "baseName" : "RECedit",
       "endOfLine" : ""
     }
+  }, {
+    "module" : "github-actions-maven",
+    "date" : "2024-03-10T16:02:31.691444100Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
   } ]
 }
