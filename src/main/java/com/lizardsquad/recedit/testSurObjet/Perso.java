@@ -22,9 +22,10 @@ public class Perso {
     return prenom;
   }
 
-  public Integer getAge() {
+  // TODO: decommenter ce truc c pour sonar voir si ça marche bien
+  /*public Integer getAge() {
     return age;
-  }
+  }*/
 
   public static class PersoBuilder {
     private String nom;
@@ -45,10 +46,9 @@ public class Perso {
       return this;
     }
 
-    // TODO: DECOMMENTER CE TRUC
-    /*public PersoBuilder age(Integer age) {
+    public PersoBuilder age(Integer age) {
       this.age = age;
       return this;
-    }*/
+    }
   }
 }
