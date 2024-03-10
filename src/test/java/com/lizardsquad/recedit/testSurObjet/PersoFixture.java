@@ -13,4 +13,9 @@ public class PersoFixture {
   public static Perso persoAlex() {
     return persoBuilder().build();
   }
+
+  public static Perso persoSouly() {
+    // TODO: test pour sonar voir si ça check bien
+    return null;
+  }
 }

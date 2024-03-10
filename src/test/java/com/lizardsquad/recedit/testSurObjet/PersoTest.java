@@ -9,7 +9,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @UnitTest
 class PersoTest {
 
-  @Disabled
   @Test
   void shouldBuild() {
 
