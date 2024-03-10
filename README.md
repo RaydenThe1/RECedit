@@ -33,6 +33,10 @@ mvn package
 mvn compile exec:java
 ```
 
+```bash
+./mvnw 
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 

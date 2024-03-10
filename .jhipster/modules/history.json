@@ -59,5 +59,15 @@
       "baseName" : "RECedit",
       "endOfLine" : ""
     }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2024-03-10T15:36:28.154616Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
   } ]
 }
