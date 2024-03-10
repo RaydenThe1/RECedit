@@ -40,14 +40,74 @@
       "packageName" : "com.lizardsquad.recedit"
     }
   }, {
-    "module" : "jacoco",
-    "date" : "2024-03-09T15:45:38.233268200Z",
+    "module" : "jacoco-with-min-coverage-check",
+    "date" : "2024-03-10T14:58:57.473510Z",
     "properties" : {
       "projectName" : "RECedit",
       "baseName" : "RECedit",
       "endOfLine" : "",
+      "packageName" : "com.lizardsquard.recedit",
+      "indentSize" : 2
+    }
+  }, {
+    "module" : "jacoco-with-min-coverage-check",
+    "date" : "2024-03-10T15:36:16.753914200Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
       "indentSize" : 2,
-      "packageName" : "com.lizardsquad.recedit"
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2024-03-10T15:36:28.154616Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
+  }, {
+    "module" : "sonar-qube-java-backend",
+    "date" : "2024-03-10T15:38:28.747476400Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
+  }, {
+    "module" : "github-actions-maven",
+    "date" : "2024-03-10T15:51:33.351956700Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
+  }, {
+    "module" : "github-actions-maven",
+    "date" : "2024-03-10T15:52:16.437469Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
+    }
+  }, {
+    "module" : "github-actions-maven",
+    "date" : "2024-03-10T16:02:31.691444100Z",
+    "properties" : {
+      "packageName" : "com.lizardsquad.recedit",
+      "projectName" : "RECedit",
+      "indentSize" : 2,
+      "baseName" : "RECedit",
+      "endOfLine" : ""
     }
   } ]
 }

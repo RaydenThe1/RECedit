@@ -22,6 +22,7 @@ public class Perso {
     return prenom;
   }
 
+  // TODO: decommenter ce truc c pour sonar voir si ça marche bien
   public Integer getAge() {
     return age;
   }

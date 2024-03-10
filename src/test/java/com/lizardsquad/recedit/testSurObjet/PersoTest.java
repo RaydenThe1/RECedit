@@ -1,6 +1,7 @@
 package com.lizardsquad.recedit.testSurObjet;
 
 import com.lizardsquad.recedit.UnitTest;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
