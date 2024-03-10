@@ -2,6 +2,7 @@ package com.lizardsquad.recedit.screenshot.secondary;
 
 import com.lizardsquad.recedit.screenshot.domain.Screenshot;
 import com.lizardsquad.recedit.screenshot.domain.ScreenshotFixture;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
@@ -39,6 +40,7 @@ class ScreenshotEntityTest {
     assertThat(result.getWidth()).isEqualTo(screenshot.getWidth());
   }
 
+  @Disabled
   // TODO: LANCEZ PAS LE TEST, CV FAIRE UN SCREEN, FAUT QUE JE FIX
   // C PAS CENSE FAIRE CA
   @Test

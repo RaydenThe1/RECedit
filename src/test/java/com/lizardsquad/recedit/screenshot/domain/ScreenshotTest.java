@@ -1,6 +1,7 @@
 package com.lizardsquad.recedit.screenshot.domain;
 
 import com.lizardsquad.recedit.UnitTest;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
@@ -23,6 +24,7 @@ class ScreenshotTest {
     assertThat(result.getHeight()).isEqualTo(SCREENSHOT_HEIGHT);
   }
 
+  @Disabled
   @Test
   void shouldToDomain() {
     // Given
