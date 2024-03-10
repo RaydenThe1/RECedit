@@ -58,7 +58,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      #- name: 'Test: run tests'
-      #  run: |
-      #    chmod +x mvnw
-      #    ./mvnw clean verify
+      - name: 'Test: run tests'
+        run: |
+          chmod +x mvnw
+          ./mvnw clean verify

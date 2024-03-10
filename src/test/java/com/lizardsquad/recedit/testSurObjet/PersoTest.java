@@ -15,7 +15,7 @@ class PersoTest {
 
     assertThat(perso).isNotNull();
     assertThat(perso.getNom()).isEqualTo("LE");
-    assertThat(perso.getPrenom()).isEqualTo("Alexandre");
+    assertThat(perso.getPrenom()).isEqualTo("dsqd");
     //assertThat(perso.getAge()).isEqualTo(23);
   }
 }
