@@ -1,6 +1,7 @@
 package com.lizardsquad.recedit;
 
 import com.lizardsquad.recedit.screenshot.domain.Screenshot;
+import com.lizardsquad.recedit.screenshot.primary.ScreenshotViewer;
 import com.lizardsquad.recedit.screenshot.secondary.ScreenshotEntity;
 import com.lizardsquad.recedit.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
 
@@ -21,6 +22,9 @@ public class Main {
 
     // passage vers secondary (Entity)
     ScreenshotEntity entity = ScreenshotEntity.toEntity(screenshot);
-    ScreenshotEntity save = ScreenshotEntity.save(entity, LocalDate.now().toString());
+    ScreenshotEntity.save(entity, LocalDate.now().toString());
+
+    ScreenshotViewer viewer = new ScreenshotViewer();
+    viewer.run();
   }
 }
