@@ -4,8 +4,8 @@
 
 ### Java
 
-You need to have Java 21:
-- [JDK 21](https://openjdk.java.net/projects/jdk/21/)
+You need to have Java 21 (Temurin JDK 21):
+- [Temurin releases](https://adoptium.net/fr/temurin/releases/)
 
 ### Node.js and NPM
 
@@ -30,7 +30,6 @@ npm install
 
 ```
 mvn package
-mvn compile exec:java
 ```
 
 ```bash
@@ -41,8 +40,16 @@ mvn compile exec:java
 docker compose -f src/main/docker/sonar.yml up -d
 ```
 
+To run sonar code smells' check (not working atm)
+
 ```bash
 ./mvnw clean verify sonar:sonar
+```
+
+To run the project
+
+```bash
+mvn compile exec:java
 ```
 
 

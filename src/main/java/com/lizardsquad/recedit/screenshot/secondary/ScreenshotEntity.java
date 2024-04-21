@@ -59,10 +59,10 @@ public class ScreenshotEntity {
   }
 
   @ExcludeFromGeneratedCodeCoverage
-  public static ScreenshotEntity save(ScreenshotEntity entity) throws AWTException, IOException {
+  public static ScreenshotEntity save(ScreenshotEntity entity, String name) throws AWTException, IOException {
     Robot robot = new Robot();
     BufferedImage image = robot.createScreenCapture(new Rectangle(entity.getWidth().intValue(), entity.getHeight().intValue()));
-    ImageIO.write(image, "png", new File("./img/"+ System.currentTimeMillis() + ".png"));
+    ImageIO.write(image, "png", new File("./img/"+ name + ".png"));
     return entity;
   }
 }
