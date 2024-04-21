@@ -1,7 +1,6 @@
 package com.lizardsquad.recedit.screenshot.secondary;
 
 import com.lizardsquad.recedit.screenshot.domain.Screenshot;
-import com.lizardsquad.recedit.screenshot.domain.ScreenshotFixture;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +9,6 @@ import java.io.IOException;
 
 import static com.lizardsquad.recedit.screenshot.domain.ScreenshotFixture.*;
 import static com.lizardsquad.recedit.screenshot.secondary.ScreenshotEntityFixture.*;
-import static org.assertj.core.api.Assertions.as;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class ScreenshotEntityTest {
@@ -49,7 +47,7 @@ class ScreenshotEntityTest {
     ScreenshotEntity entity = screenshotEntityFixture();
 
     // When
-    ScreenshotEntity result = ScreenshotEntity.save(entity);
+    ScreenshotEntity result = ScreenshotEntity.save(entity, "test");
 
     // Then
     assertThat(result).isNotNull();
