@@ -14,6 +14,6 @@ public class Main {
 			System.out.println("i = " + i);
 		}
 
-		System.out.println("Zizi = 8==========D");
+		System.out.println("Zizi");
 	}
 }
