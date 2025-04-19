@@ -16,14 +16,12 @@ public class Id3v1Sample {
 	private Id3v1Sample() {}
 
 	public static Id3v1 id3v1Mp3() {
-		Id3v1 id3V1 = new Id3v1();
-		id3V1.setTitle(TITLE);
-		id3V1.setArtist(ARTIST);
-		id3V1.setAlbum(ALBUM);
-		id3V1.setYear(YEAR);
-		id3V1.setComment(COMMENT);
-		id3V1.setGenre(GENRE);
-
-		return id3V1;
+		return Id3v1.builder().title(TITLE)
+						.artist(ARTIST)
+						.album(ALBUM)
+						.year(YEAR)
+						.comment(COMMENT)
+						.genre(GENRE)
+						.build();
 	}
 }
