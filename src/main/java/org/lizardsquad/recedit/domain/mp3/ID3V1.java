@@ -4,7 +4,7 @@ import java.time.Year;
 import lombok.Data;
 
 @Data
-public class Id3v1 {
+public class ID3V1 {
 
 	private String title;
 
@@ -18,7 +18,7 @@ public class Id3v1 {
 
 	private Genre genre;
 
-	public Id3v1(Builder builder) {
+	public ID3V1(Builder builder) {
 		this.title =   builder.title;
 		this.artist =  builder.artist;
 		this.album =   builder.album;
@@ -26,6 +26,7 @@ public class Id3v1 {
 		this.comment = builder.comment;
 		this.genre =   builder.genre;
 	}
+
 	public static Builder builder() {
 		return new Builder();
 	}
@@ -38,8 +39,8 @@ public class Id3v1 {
 		private String comment;
 		private Genre genre;
 
-		public Id3v1 build(){
-			return new Id3v1(this);
+		public ID3V1 build(){
+			return new ID3V1(this);
 		}
 
 		public Builder title(String title) {
